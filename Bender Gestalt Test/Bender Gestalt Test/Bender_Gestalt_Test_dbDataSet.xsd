@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bender_Gestalt_Test_dbDataSet" targetNamespace="http://tempuri.org/Bender_Gestalt_Test_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/Bender_Gestalt_Test_dbDataSet.xsd" xmlns="http://tempuri.org/Bender_Gestalt_Test_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Bender_Gestalt_Test_dbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Bender_Gestalt_Test_dbConnectionString1 (Settings)" PropertyReference="ApplicationSettings.Bender_Gestalt_Test.Properties.Settings.GlobalReference.Default.Bender_Gestalt_Test_dbConnectionString1" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="bender_gestalt_test_tableTableAdapter" GeneratorDataComponentClassName="bender_gestalt_test_tableTableAdapter" Name="bender_gestalt_test_table" UserDataComponentName="bender_gestalt_test_tableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Bender_Gestalt_Test_dbConnectionString1 (Settings)" DbObjectName="bender_gestalt_test_table" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Name, [Date], Total_Score, Status, Rotation, Over_lapping_difficulty, Simplification, Fragmentation, Retrogression, Preservation, Collusion_tendecy, Impotence, Clouser_difficulty, Motor_incoordination, Angulation, Cohesion, [Case] FROM bender_gestalt_test_table</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Total_Score" DataSetColumn="Total_Score" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Rotation" DataSetColumn="Rotation" />
+              <Mapping SourceColumn="Over_lapping_difficulty" DataSetColumn="Over_lapping_difficulty" />
+              <Mapping SourceColumn="Simplification" DataSetColumn="Simplification" />
+              <Mapping SourceColumn="Fragmentation" DataSetColumn="Fragmentation" />
+              <Mapping SourceColumn="Retrogression" DataSetColumn="Retrogression" />
+              <Mapping SourceColumn="Preservation" DataSetColumn="Preservation" />
+              <Mapping SourceColumn="Collusion_tendecy" DataSetColumn="Collusion_tendecy" />
+              <Mapping SourceColumn="Impotence" DataSetColumn="Impotence" />
+              <Mapping SourceColumn="Clouser_difficulty" DataSetColumn="Clouser_difficulty" />
+              <Mapping SourceColumn="Motor_incoordination" DataSetColumn="Motor_incoordination" />
+              <Mapping SourceColumn="Angulation" DataSetColumn="Angulation" />
+              <Mapping SourceColumn="Cohesion" DataSetColumn="Cohesion" />
+              <Mapping SourceColumn="Case" DataSetColumn="Case" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Bender_Gestalt_Test_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Bender_Gestalt_Test_dbDataSet" msprop:Generator_UserDSName="Bender_Gestalt_Test_dbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="bender_gestalt_test_table" msprop:Generator_TableClassName="bender_gestalt_test_tableDataTable" msprop:Generator_TableVarName="tablebender_gestalt_test_table" msprop:Generator_TablePropName="bender_gestalt_test_table" msprop:Generator_RowDeletingName="bender_gestalt_test_tableRowDeleting" msprop:Generator_RowChangingName="bender_gestalt_test_tableRowChanging" msprop:Generator_RowEvHandlerName="bender_gestalt_test_tableRowChangeEventHandler" msprop:Generator_RowDeletedName="bender_gestalt_test_tableRowDeleted" msprop:Generator_UserTableName="bender_gestalt_test_table" msprop:Generator_RowChangedName="bender_gestalt_test_tableRowChanged" msprop:Generator_RowEvArgName="bender_gestalt_test_tableRowChangeEvent" msprop:Generator_RowClassName="bender_gestalt_test_tableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_Score" msprop:Generator_ColumnVarNameInTable="columnTotal_Score" msprop:Generator_ColumnPropNameInRow="Total_Score" msprop:Generator_ColumnPropNameInTable="Total_ScoreColumn" msprop:Generator_UserColumnName="Total_Score" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rotation" msprop:Generator_ColumnVarNameInTable="columnRotation" msprop:Generator_ColumnPropNameInRow="Rotation" msprop:Generator_ColumnPropNameInTable="RotationColumn" msprop:Generator_UserColumnName="Rotation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Over_lapping_difficulty" msprop:Generator_ColumnVarNameInTable="columnOver_lapping_difficulty" msprop:Generator_ColumnPropNameInRow="Over_lapping_difficulty" msprop:Generator_ColumnPropNameInTable="Over_lapping_difficultyColumn" msprop:Generator_UserColumnName="Over_lapping_difficulty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Simplification" msprop:Generator_ColumnVarNameInTable="columnSimplification" msprop:Generator_ColumnPropNameInRow="Simplification" msprop:Generator_ColumnPropNameInTable="SimplificationColumn" msprop:Generator_UserColumnName="Simplification" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fragmentation" msprop:Generator_ColumnVarNameInTable="columnFragmentation" msprop:Generator_ColumnPropNameInRow="Fragmentation" msprop:Generator_ColumnPropNameInTable="FragmentationColumn" msprop:Generator_UserColumnName="Fragmentation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Retrogression" msprop:Generator_ColumnVarNameInTable="columnRetrogression" msprop:Generator_ColumnPropNameInRow="Retrogression" msprop:Generator_ColumnPropNameInTable="RetrogressionColumn" msprop:Generator_UserColumnName="Retrogression" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Preservation" msprop:Generator_ColumnVarNameInTable="columnPreservation" msprop:Generator_ColumnPropNameInRow="Preservation" msprop:Generator_ColumnPropNameInTable="PreservationColumn" msprop:Generator_UserColumnName="Preservation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Collusion_tendecy" msprop:Generator_ColumnVarNameInTable="columnCollusion_tendecy" msprop:Generator_ColumnPropNameInRow="Collusion_tendecy" msprop:Generator_ColumnPropNameInTable="Collusion_tendecyColumn" msprop:Generator_UserColumnName="Collusion_tendecy" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Impotence" msprop:Generator_ColumnVarNameInTable="columnImpotence" msprop:Generator_ColumnPropNameInRow="Impotence" msprop:Generator_ColumnPropNameInTable="ImpotenceColumn" msprop:Generator_UserColumnName="Impotence" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Clouser_difficulty" msprop:Generator_ColumnVarNameInTable="columnClouser_difficulty" msprop:Generator_ColumnPropNameInRow="Clouser_difficulty" msprop:Generator_ColumnPropNameInTable="Clouser_difficultyColumn" msprop:Generator_UserColumnName="Clouser_difficulty" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Motor_incoordination" msprop:Generator_ColumnVarNameInTable="columnMotor_incoordination" msprop:Generator_ColumnPropNameInRow="Motor_incoordination" msprop:Generator_ColumnPropNameInTable="Motor_incoordinationColumn" msprop:Generator_UserColumnName="Motor_incoordination" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Angulation" msprop:Generator_ColumnVarNameInTable="columnAngulation" msprop:Generator_ColumnPropNameInRow="Angulation" msprop:Generator_ColumnPropNameInTable="AngulationColumn" msprop:Generator_UserColumnName="Angulation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cohesion" msprop:Generator_ColumnVarNameInTable="columnCohesion" msprop:Generator_ColumnPropNameInRow="Cohesion" msprop:Generator_ColumnPropNameInTable="CohesionColumn" msprop:Generator_UserColumnName="Cohesion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Case" msprop:Generator_ColumnVarNameInTable="columnCase" msprop:Generator_ColumnPropNameInRow="Case" msprop:Generator_ColumnPropNameInTable="CaseColumn" msprop:Generator_UserColumnName="Case" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

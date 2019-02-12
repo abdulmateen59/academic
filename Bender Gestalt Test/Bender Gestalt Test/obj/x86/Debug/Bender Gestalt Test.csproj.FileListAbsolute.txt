@@ -1,0 +1,11 @@
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\bin\x86\Debug\Bender Gestalt Test.exe.config
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\bin\x86\Debug\Bender Gestalt Test.exe
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\bin\x86\Debug\Bender Gestalt Test.pdb
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\bin\x86\Debug\MetroFramework.Design.dll
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\bin\x86\Debug\MetroFramework.dll
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\bin\x86\Debug\MetroFramework.Fonts.dll
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\obj\x86\Debug\Bender_Gestalt_Test.Form1.resources
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\obj\x86\Debug\Bender_Gestalt_Test.Properties.Resources.resources
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\obj\x86\Debug\Bender Gestalt Test.csproj.GenerateResource.Cache
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\obj\x86\Debug\Bender Gestalt Test.exe
+C:\Users\N3vRMor3\Documents\Visual Studio 2015\Projects\Bender Gestalt Test\Bender Gestalt Test\obj\x86\Debug\Bender Gestalt Test.pdb
